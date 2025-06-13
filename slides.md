@@ -22,10 +22,11 @@ GE Campinas - 26/06/2025
 ## Visão geral
 
 - Modelos aprendem como as informações se organizam e estão estatisticamente distribuídas no _corpus_ de treinamento.
-- LLMs: geram textos coerentes e relevantes em resposta aos comandos dos usuários (_prompts_).
+- LLMs: geram textos coerentes e relevantes em resposta aos comandos (_prompts_).
 - Não possuem conhecimentos factuais.
 
 ## Alucinações
+
 - Respostas baseadas nos padrões probabilísticos aprendidos durante o treinamento
 
 ---
@@ -89,7 +90,9 @@ GE Campinas - 26/06/2025
 # Perguntas?
 
 linkedin.com/in/jespimentel
+
 jespimentel.blogspot.com
+
 github.com/jespimentel
 
 pimentel@mpsp.mp.br
