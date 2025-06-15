@@ -52,22 +52,37 @@ GE Campinas - 26/06/2025
 ---
 # Engenharia de prompt
 
-- **Contexto**: fornece informações de fundo ou situacionais que ajudam o modelo a entender melhor o cenário e a aplicar corretamente as instruções.
-- **Instruções**: define as tarefas que o modelo deve executar (exemplos: "analise", "compare", "liste", "reescreva", “resuma de forma estruturada”). 
-- **Dados de entrada**: consistem no material específico sobre o qual a instrução deve operar (exemplo: texto legal, peças de um inquérito civil, um acórdão)
-- **Tipo de saída esperada**: orienta o modelo sobre a forma de apresentar a resposta (exemplos: "em formato de tabela", "como uma lista de pontos (bullet points)", "em linguagem formal", "com no máximo 2 parágrafos", "na forma do template fornecido"). 
+- **Contexto**: fornece informações situacionais que ajudam o modelo a compreender melhor o cenário sobre o qual ele aplicará as instruções.
+- **Dados de entrada**: informação ou arquivo fornecido à IA para processamento.
+- **Persona**: define o papel do modelo (exemplo: "Você é um promotor de justiça.")
+- **Tarefas**: define as tarefas que o modelo deve executar (exemplos: "analise", "compare", "liste", "reescreva", “resuma de forma estruturada”). 
+- **Formato de saída**: orienta o modelo sobre a forma de apresentar a resposta (exemplos: "em formato de tabela", "como uma lista de pontos (bullet points)", "em linguagem formal", "com no máximo 2 parágrafos", "na forma do(s) exemplo(s) fornecido(s)"). 
 ---
 # Dicas:
 
 - Comece simples
-- Dê um papel à LLM
-- Adicione contexto relevante
 - Divida tarefas complexas
-- Use instruções claras e diretas
-- Seja específico e forneça exemplos
+- Dê um papel ao modelo
+- Adicione contexto relevante
+- Use instruções claras, específicas e diretas
+- Forneça exemplos
 - Diga o que não fazer
-- Dê feedbacks ao modelo
 - Utilize tags ou Markdown
+- Converse com o modelo (forneça feedbacks) 
+
+---
+# Vazamento do System Prompt do Claude 4
+
+- [System Prompt](https://github.com/elder-plinius/CL4R1T4S/blob/main/ANTHROPIC/Claude_4.txt) - 22/05/2025
+
+## Lições aprendidas:
+- O prompt pode ser grande (15k+)
+- Seções estruturadas por XML: <externa><interna></interna></externa>
+- Uso de lógica condicional (muitos "if")
+- Repetição das instruções importantes
+- Ênfases com maiúsculas e um pouco de Markdown (#, ** e -)
+- Restrições: "DO NOT", "Do not" e "don't"
+- Exemplos: bons e maus
 
 ---
 
@@ -85,6 +100,14 @@ GE Campinas - 26/06/2025
 - Infográficos
 - Linha do tempo
 - Esquemas (DOT e Mermaid)
+
+---
+# Para saber mais:
+[Prompting Guide 101 (Google)](https://workspace.google.com/learning/content/gemini-prompt-guide?hl=pt-BR)
+
+
+
+
 
 ---
 # Perguntas?
