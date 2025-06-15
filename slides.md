@@ -9,10 +9,17 @@ José Eduardo de Souza Pimentel
 GE Campinas - 26/06/2025
 
 ---
-## Apostila:
-## https://jespimentel.github.io/ia_gen_na_promotoria
+# Objetivos
 
-## Repositório dos prompts do GE: 
+- Visão geral sobre processamento de linguagem natural
+- Noções de engenharia de prompt
+- Criação de Agentes, GEMs e GPTs para a Promotoria
+- Outras aplicações
+
+---
+
+# Repositório dos prompts do GE: 
+
 ## https://github.com/jespimentel/ge_campinas_2025
 
 ---
@@ -25,9 +32,21 @@ GE Campinas - 26/06/2025
 - LLMs: geram textos coerentes e relevantes em resposta aos comandos (_prompts_).
 - Não possuem conhecimentos factuais.
 
-## Alucinações
+---
 
-- Respostas baseadas nos padrões probabilísticos aprendidos durante o treinamento
+## Privacidade
+
+- Conhecer termos de uso e opções opt-in ou opt-out dos provedores
+
+## Alucinação
+- Modelos não possuem compreensão real dos assuntos
+- Respostas plausíveis (baseadas em padrões probabilísticos)
+- Em regram não verificam a veracidade ou a completude das informações
+
+## Sugestões:
+- Conferir as informações geradas
+- Não utilizar como única fonte de pesquisa
+- Estar cientes das limitações da tecnologia
 
 ---
 
@@ -67,17 +86,18 @@ GE Campinas - 26/06/2025
 - Use instruções claras, específicas e diretas
 - Forneça exemplos
 - Diga o que não fazer
-- Utilize tags ou Markdown
+- Utilize XML e/ou Markdown
 - Converse com o modelo (forneça feedbacks) 
 
 ---
-# Vazamento do System Prompt do Claude 4
+# "Vazamento" do System Prompt da Anthropic
 
-- [System Prompt](https://github.com/elder-plinius/CL4R1T4S/blob/main/ANTHROPIC/Claude_4.txt) - 22/05/2025
+- [System Prompt do Claude 4](https://github.com/elder-plinius/CL4R1T4S/blob/main/ANTHROPIC/Claude_4.txt) - 22/05/2025
 
-## Lições aprendidas:
+**Lições aprendidas:**
 - O prompt pode ser grande (15k+)
 - Seções estruturadas por XML: <externa><interna></interna></externa>
+- Emprego de "intenções declarativas" (capacidades e limitações)
 - Uso de lógica condicional (muitos "if")
 - Repetição das instruções importantes
 - Ênfases com maiúsculas e um pouco de Markdown (#, ** e -)
@@ -86,12 +106,22 @@ GE Campinas - 26/06/2025
 
 ---
 
-# Construção de agentes, GEMs e GPTs
+# Construção de Agentes (Copilot), GEMs e GPTs
 
+- Especificidades
+- Capacidades
+- Pros e Cons
 
 ---
 
 # Análise de um processo com o NotebookLM
+
+- Visão geral
+- Tipos de fontes
+- Documento de resumo
+- Mapa mental
+- Linha do tempo
+- Conversa aprofundada (personalização)
 
 ---
 
@@ -103,14 +133,17 @@ GE Campinas - 26/06/2025
 
 ---
 # Para saber mais:
+
+[A IA GENERATIVA NA PROMOTORIA (Pimentel)](https://github.com/jespimentel/ia_gen_na_promotoria/raw/main/apostila/IA_Gen_Promotoria_Pimentel.pdf)
+
 [Prompting Guide 101 (Google)](https://workspace.google.com/learning/content/gemini-prompt-guide?hl=pt-BR)
 
-
-
+[What Is ChatGPT Doing … and Why Does It Work? (Stephen Wolfram)](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
 
 ---
-# Perguntas?
+
+# Perguntas? Obrigado!
 
 linkedin.com/in/jespimentel
 
