@@ -1,6 +1,11 @@
-# ge_campinas_2025
-Material de apoio da palestra "IA aplicada à Promotoria de Justiça. Prática e engenharia de prompt para o Ministério Público".
+# APMP - Grupo de Estudos | Campinas - 26/06/2025
 
-Grupo de Estudos de Campinas
+## IA aplicada à Promotoria de Justiça. Prática e engenharia de prompt para o Ministério Público
 
-26/06/2025
+### Material de apoio da palestra
+
+- Slides
+- Prompts
+- Ícones para os agentes (exemplos)
+
+---

@@ -129,7 +129,7 @@ GE Campinas - 26/06/2025
 
 - Infográficos
 - Linha do tempo
-- Esquemas (DOT e Mermaid)
+- Esquemas (com Mermaid)
 
 ---
 # Para saber mais:
