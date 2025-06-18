@@ -135,7 +135,7 @@ GE "Campos Salles" | Campinas, 26/06/2025
 
 - Corretor de peças (prompt básico)
 - Audiência de custódia (resultado formatado)
-- MPU (placholder + separação fato/fundamento)
+- MPU (placeholder + separação fato/fundamento)
 - Resumidor de IP (uso de exemplos no prompt)
 - Peças processuais (roteiro a ser seguido)
 - Denunciador "preguiçoso" (uso de base de conhecimento)
