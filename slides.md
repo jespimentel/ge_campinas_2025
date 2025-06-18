@@ -6,19 +6,33 @@ marp: true
 
 José Eduardo de Souza Pimentel
 
-GE Campinas - 26/06/2025
+GE "Campos Salles" | Campinas, 26/06/2025
 
 ---
+
 # Objetivos
 
-- Visão geral sobre processamento de linguagem natural
-- Noções de engenharia de prompt
-- Criação de Agentes, GEMs e GPTs para a Promotoria
-- Outras aplicações
+- Visão geral sobre o tema
+- Noções de "Engenharia de Prompt"
+- Aplicações práticas: Agentes, GEMs e GPTs
+- Dicas para a implementação
 
 ---
 
-# Repositório dos prompts do GE: 
+# Fora do escopo (mas possível com LLMs)
+
+- Obtenção de hashes e manipulação de arquivos
+- Obtenção de frames e tratamento de imagens
+- Análise de dados
+- Brainstorm
+- Encadeamento de prompts
+- Etc... (é um "canivete suíço")
+
+## Disponível em: [ESMP](https://mpspbr.sharepoint.com/sites/acervo-videos-stream/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2Facervo%2Dvideos%2Dstream%2FDocumentos%20Compartilhados%2FESMPSP%2FEventos%2F2025%5FIA%20Generativa%20na%20Promotoria%5FAprendizados%2C%20Limita%C3%A7%C3%B5es%20e%20o%20que%20Funciona%20Agora&p=true&ga=1) e [Apostila](https://github.com/jespimentel/ia_gen_na_promotoria/raw/main/apostila/IA_Gen_Promotoria_Pimentel.pdf) 
+
+---
+
+# Repositório dos prompts deste GE: 
 
 ## https://github.com/jespimentel/ge_campinas_2025
 
@@ -28,9 +42,9 @@ GE Campinas - 26/06/2025
 
 ## Visão geral
 
-- Modelos aprendem como as informações se organizam e estão estatisticamente distribuídas no _corpus_ de treinamento.
-- LLMs: geram textos coerentes e relevantes em resposta aos comandos (_prompts_).
-- Não possuem conhecimentos factuais.
+- Modelos aprendem como as informações se organizam e estão estatisticamente distribuídas no _corpus_ de treinamento
+- LLMs: geram textos coerentes e relevantes em resposta aos comandos (_prompts_)
+- Não possuem conhecimentos factuais
 
 ---
 
@@ -39,11 +53,13 @@ GE Campinas - 26/06/2025
 - Conhecer termos de uso e opções opt-in ou opt-out dos provedores
 
 ## Alucinação
+
 - Modelos não possuem compreensão real dos assuntos
 - Respostas plausíveis (baseadas em padrões probabilísticos)
-- Em regram não verificam a veracidade ou a completude das informações
+- Em regra, não verificam a veracidade ou a completude das informações
 
 ## Sugestões:
+
 - Conferir as informações geradas
 - Não utilizar como única fonte de pesquisa
 - Estar cientes das limitações da tecnologia
@@ -66,7 +82,7 @@ GE Campinas - 26/06/2025
 - ChatGPT
 - NotebookLM 
 - Perplexity
-- Outras
+- Outros
 
 ---
 # Engenharia de prompt
@@ -77,7 +93,7 @@ GE Campinas - 26/06/2025
 - **Tarefas**: define as tarefas que o modelo deve executar (exemplos: "analise", "compare", "liste", "reescreva", “resuma de forma estruturada”). 
 - **Formato de saída**: orienta o modelo sobre a forma de apresentar a resposta (exemplos: "em formato de tabela", "como uma lista de pontos (bullet points)", "em linguagem formal", "com no máximo 2 parágrafos", "na forma do(s) exemplo(s) fornecido(s)"). 
 ---
-# Dicas:
+# Dicas para a elaboração de bons prompts:
 
 - Comece simples
 - Divida tarefas complexas
@@ -86,7 +102,7 @@ GE Campinas - 26/06/2025
 - Use instruções claras, específicas e diretas
 - Forneça exemplos
 - Diga o que não fazer
-- Utilize XML e/ou Markdown
+- Utilize tags (<tag></tag>) e/ou Markdown (#, ** e -)
 - Converse com o modelo (forneça feedbacks) 
 
 ---
@@ -95,6 +111,7 @@ GE Campinas - 26/06/2025
 - [System Prompt do Claude 4](https://github.com/elder-plinius/CL4R1T4S/blob/main/ANTHROPIC/Claude_4.txt) - 22/05/2025
 
 **Lições aprendidas:**
+
 - O prompt pode ser grande (15k+)
 - Seções estruturadas por XML: <externa><interna></interna></externa>
 - Emprego de "intenções declarativas" (capacidades e limitações)
@@ -114,6 +131,17 @@ GE Campinas - 26/06/2025
 
 ---
 
+# Estratégias
+
+- Corretor de peças (prompt básico)
+- Audiência de custódia (resultado formatado)
+- MPU (placholder + separação fato/fundamento)
+- Resumidor de IP (uso de exemplos no prompt)
+- Peças processuais (roteiro a ser seguido)
+- Denunciador "preguiçoso" (uso de base de conhecimento)
+
+---
+
 # Análise de um processo com o NotebookLM
 
 - Visão geral
@@ -125,13 +153,27 @@ GE Campinas - 26/06/2025
 
 ---
 
-# _Visual law_
+# Visual Law
 
 - Infográficos
 - Linha do tempo
 - Esquemas (com Mermaid)
 
 ---
+# Dicas de implementação
+
+- Casos simples
+- Criação de agentes "especializados"
+- Nova configuração de peças:
+	- fatos
+	- fundamentos jurídicos
+	- identificação dos casos reaproveitáveis (recuperação)
+- GoogleKeep (ou equivalente)
+	- BD de prompts e aprendizado compartilhado
+	- BD de teses e julgados  
+
+---
+
 # Para saber mais:
 
 [A IA GENERATIVA NA PROMOTORIA (Pimentel)](https://github.com/jespimentel/ia_gen_na_promotoria/raw/main/apostila/IA_Gen_Promotoria_Pimentel.pdf)
