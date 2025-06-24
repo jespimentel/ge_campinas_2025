@@ -1,6 +1,9 @@
 ---
+
 marp: true
+
 ---
+
 # IA APLICADA À PROMOTORIA DE JUSTIÇA 
 ## Prática e engenharia de prompt para o Ministério Público
 
@@ -32,9 +35,17 @@ GE "Campos Salles" | Campinas, 26/06/2025
 
 ---
 
+# Slides
+
+![QR code do site](img/qr_ge_campinas_2025.png)
+
+<https://jespimentel.github.io/ge_campinas_2025/>
+
+---
+
 # Repositório dos prompts deste GE: 
 
-## https://github.com/jespimentel/ge_campinas_2025
+<https://github.com/jespimentel/ge_campinas_2025/tree/main/prompts>
 
 ---
 
@@ -42,8 +53,8 @@ GE "Campos Salles" | Campinas, 26/06/2025
 
 ## Visão geral
 
-- Modelos aprendem como as informações se organizam e estão estatisticamente distribuídas no _corpus_ de treinamento
-- LLMs: geram textos coerentes e relevantes em resposta aos comandos (_prompts_)
+- Modelos aprendem como as informações se organizam e estão estatisticamente distribuídas no corpus de treinamento
+- LLMs: geram textos coerentes e relevantes em resposta aos comandos (**prompts**)
 - Não possuem conhecimentos factuais
 
 ---
@@ -75,6 +86,7 @@ GE "Campos Salles" | Campinas, 26/06/2025
 - Crítica: solução de produtividade pessoal
 
 ---
+
 # Modelos. Qual escolher?
 
 - Copilot
@@ -85,6 +97,7 @@ GE "Campos Salles" | Campinas, 26/06/2025
 - Outros
 
 ---
+
 # Engenharia de prompt
 
 - **Contexto**: fornece informações situacionais que ajudam o modelo a compreender melhor o cenário sobre o qual ele aplicará as instruções.
@@ -93,6 +106,7 @@ GE "Campos Salles" | Campinas, 26/06/2025
 - **Tarefas**: define as tarefas que o modelo deve executar (exemplos: "analise", "compare", "liste", "reescreva", “resuma de forma estruturada”). 
 - **Formato de saída**: orienta o modelo sobre a forma de apresentar a resposta (exemplos: "em formato de tabela", "como uma lista de pontos (bullet points)", "em linguagem formal", "com no máximo 2 parágrafos", "na forma do(s) exemplo(s) fornecido(s)"). 
 ---
+
 # Dicas para a elaboração de bons prompts:
 
 - Comece simples
@@ -106,6 +120,7 @@ GE "Campos Salles" | Campinas, 26/06/2025
 - Converse com o modelo (forneça feedbacks) 
 
 ---
+
 # "Vazamento" do System Prompt da Anthropic
 
 - [System Prompt do Claude 4](https://github.com/elder-plinius/CL4R1T4S/blob/main/ANTHROPIC/Claude_4.txt) - 22/05/2025
@@ -160,6 +175,7 @@ GE "Campos Salles" | Campinas, 26/06/2025
 - Esquemas (com Mermaid)
 
 ---
+
 # Dicas de implementação
 
 - Casos simples
