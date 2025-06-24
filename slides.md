@@ -80,10 +80,12 @@ GE "Campos Salles" | Campinas, 26/06/2025
 # Regulamentação
 
 - PCA nº 0000416-89.2023.2.00.0000 (j. 21/06/2024)
-- Resolução nº 332/2020 (atualiz. em 18/02/2025)
+- Resolução nº [615/2025 - CNJ](https://atos.cnj.jus.br/files/original1555302025031467d4517244566.pdf)
 	- assinatura ou cadastro privado (se não tiver solução corporativa)
 	- neste caso, proibido em dados sigilosos ou protegidos por segredo de justiça
-- Crítica: solução de produtividade pessoal
+- Críticas:
+	- solução de produtividade pessoal
+	- assimetria com Defensores/Advogados
 
 ---
 
