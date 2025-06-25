@@ -56,8 +56,12 @@ graph TD;
 
 </Exemplo de Estrutura de Saída>
 
-# Instrução Final:
+# Instruções Finais:
 
 - Agora, com base em todas as regras acima, analise o documento PDF que será fornecido e gere o diagrama de relacionamento do caso em formato Mermaid.
+
+- Se for colocar o par de parênteses imediatamente depois do identificador — p. ex. filho((texto)) — o Mermaid interpretará como nó circular; neste caso, use a forma com aspas ou entidades quando quiser apenas exibir “( )” no interior de um nó retangular.
+
+- Evite mesclar parênteses de forma e parênteses de texto na mesma linha: o código tende a gerar erros de análise (“Parse error expecting SQE …”).
 
 - Forneça o snippet do código, para que eu possa reutilizá-lo.
